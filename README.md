@@ -43,7 +43,7 @@ Implementación de lógica de ordenamiento (sort) en el cliente para visualizar 
 ## 🛠️ Tecnologías Utilizadas
 
 * **Framework:** [Next.js](https://nextjs.org/) (React Framework).
-* **Lenguaje:** JavaScript (ES6+) / JSX.
+* **Lenguaje:** TypeScript / TSX.
 * **Estilos:** CSS Modules (o Tailwind CSS, según tu configuración) para estilos encapsulados.
 * **Validación:** Lógica personalizada con JavaScript estándar y RegEx.
 
