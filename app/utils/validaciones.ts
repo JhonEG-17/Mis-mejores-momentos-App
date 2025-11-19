@@ -33,3 +33,17 @@ export const validarFormularioRegistro = (datos: RegistroFormData): ErroresFormu
 
     return errores;
 };
+export const validarLogin = (usuario: string, pass: string) => {
+    const errores: { usuario?: string; password?: string } = {};
+
+    // Requisito: "evita que el usuario escriba únicamente espacios en blanco"
+    if (!usuario || usuario.trim().length === 0) {
+        errores.usuario = "El usuario no puede estar vacío ni ser solo espacios.";
+    }
+
+    if (!pass || pass.trim().length === 0) {
+        errores.password = "La contraseña es obligatoria.";
+    }
+
+    return errores;
+};
