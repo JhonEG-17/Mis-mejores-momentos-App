@@ -1,7 +1,7 @@
 "use client";
 import { useState, ChangeEvent, FormEvent } from "react";
-import { validarFormularioRegistro } from "../utils/validaciones";
-import { RegistroFormData, ErroresFormulario } from "../types";
+import { validarFormularioRegistro } from "@/utils/validaciones";
+import { RegistroFormData, ErroresFormulario } from "@/types";
 
 export default function RegistroPage() {
   // Estado tipado con la interfaz

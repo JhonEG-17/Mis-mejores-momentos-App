@@ -1,7 +1,7 @@
 // app/login/page.tsx
 "use client";
 import { useState, FormEvent } from "react";
-import { validarLogin } from "../utils/validaciones"; // Importamos la nueva función
+import { validarLogin } from "@/utils/validaciones"; // Importamos la nueva función
 import Link from "next/link";
 
 export default function LoginPage() {

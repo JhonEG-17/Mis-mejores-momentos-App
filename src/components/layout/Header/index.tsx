@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="flex w-full fixed backdrop-blur-sm bg-white/10 justify-between md:justify-evenly items-center text-center p-2 z-1">
+      <header className="flex w-full sticky top-0 left-0 bg-blue-500 justify-between md:justify-evenly items-center text-center p-2 z-1">
         <Link href="/">
           <Image className=" hover:scale-110 transition duration-300" src={"/logo.svg"} alt={"logo Mis Mejores Momentos App"} width={25} height={25} />
         </Link>
